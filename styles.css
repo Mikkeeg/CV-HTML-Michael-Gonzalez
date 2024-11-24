@@ -1,0 +1,100 @@
+/* General reset para estilos básicos */
+body {
+    /* Fuente predeterminada */
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Mejora la legibilidad */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Fondo claro para contraste */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Contenedor principal del CV */
+#cv {
+    width: 80%; /* Ancho del CV relativo al tamaño de la ventana */
+    max-width: 800px; /* Límite de ancho máximo */
+    margin: 20px auto; /* Centrado vertical y horizontal */
+    padding: 20px; /* Espaciado interno */
+    background: #ffffff; /* Fondo blanco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+header h1 {
+    font-size: 2.5em; /* Tamaño de fuente grande para el nombre */
+    margin-bottom: 10px;
+    color: #0056b3; /* Azul destacado */
+}
+
+header p {
+    font-size: 1.2em; /* Texto descriptivo más pequeño */
+    color: #666; /* Color gris para menor peso visual */
+}
+
+/* Estilo para secciones */
+section {
+    margin-bottom: 20px; /* Espaciado entre secciones */
+}
+
+section h2 {
+    font-size: 1.5em; /* Tamaño del encabezado */
+    color: #0056b3; /* Color azul */
+    border-bottom: 2px solid #0056b3; /* Línea decorativa */
+    padding-bottom: 5px; /* Espaciado inferior */
+    margin-bottom: 10px;
+}
+
+/* Listas sin viñetas */
+ul {
+    list-style-type: none; /* Elimina viñetas */
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px; /* Espacio entre elementos */
+}
+
+/* Destacar títulos dentro de secciones */
+strong {
+    color: #333; /* Texto destacado */
+}
+
+/* Estilo para detalles de contacto */
+#contact p {
+    margin: 5px 0; /* Reduce el espaciado vertical */
+}
+
+/* Diseño adaptable para pantallas más pequeñas */
+@media (max-width: 768px) {
+    #cv {
+        width: 95%; /* Ajusta el ancho para móviles */
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2em; /* Reduce tamaño del título */
+    }
+
+    header p {
+        font-size: 1em; /* Reduce tamaño del texto */
+    }
+
+    section h2 {
+        font-size: 1.3em; /* Ajusta tamaño de los encabezados */
+    }
+}
+
+/*comentario
+Realicé cambios en el HTML para estructurar mejor el contenido, 
+utilizando secciones claras (<section>) y listas para organizar información 
+como educación y experiencia. También añadí etiquetas semánticas como <strong> 
+para destacar datos importantes. En el CSS, mejoré el diseño aplicando un fondo claro, 
+bordes suaves, jerarquía visual con tamaños y colores de fuente, y estilos responsive 
+para adaptarlo a dispositivos móviles. El objetivo fue combinar claridad en el 
+contenido con un diseño moderno y profesional */
